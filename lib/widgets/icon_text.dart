@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sepedaa/utils/dimension.dart';
 import 'package:sepedaa/widgets/mini_text.dart';
 
 class IconAndText extends StatelessWidget {
@@ -20,6 +21,7 @@ class IconAndText extends StatelessWidget {
         Icon(
           icon,
           color: iconColor,
+          size: Dimension.iconSize24,
         ),
         SizedBox(width: 5),
         MiniText(text: text),
