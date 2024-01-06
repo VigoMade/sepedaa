@@ -4,7 +4,7 @@ import 'package:sepedaa/utils/dimension.dart';
 import 'package:sepedaa/widgets/big_text.dart';
 import 'package:sepedaa/widgets/mini_text.dart';
 
-import 'package:sepedaa/home/page_body.dart';
+import 'package:sepedaa/pages/home/page_body.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({super.key});
@@ -16,7 +16,7 @@ class MainPage extends StatefulWidget {
 class _MainPageState extends State<MainPage> {
   @override
   Widget build(BuildContext context) {
-    // print("curret height is" + MediaQuery.of(context).size.height.toString());
+    print("curret height is" + MediaQuery.of(context).size.height.toString());
     return Scaffold(
         body: Column(children: [
       Container(
